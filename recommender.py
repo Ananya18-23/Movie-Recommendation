@@ -8,7 +8,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 app = Flask(__name__)
 IMAGE_FOLDER = "images"
 MOVIE_FILE = "Cleaned_Movies.csv"
-SIMILARITY_FILE = "similarity.pkl"
+SIMILARITY_FILE = "similarity_sample.pkl"
 
 # Load initial data
 movies = pd.read_csv(MOVIE_FILE)
