@@ -23,6 +23,7 @@
 - HTML/CSS (Frontend)
   
 ### 📂 Project Structure
+```
 ├── recommender.py
 ├── Cleaned_Movies.csv
 ├── similarity.pkl
@@ -30,9 +31,10 @@
 │   ├── index.html
 │   ├── add_movie.html
 ├── images/
+```
 
 ### ⚙️ How It Works
--Combines movie features like:
+- Combines movie features like:
   - Overview
   - Genre
   - Keywords
